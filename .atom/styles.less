@@ -1,0 +1,78 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+   border-right: 1px rgb(122,77,97) solid;
+   background-color: rgb(46,48,50);
+
+   li.file.entry.list-item.selected::before {
+    //    background-color: rgb(177,0,69);
+    //    background-color: rgb(122,77,97);
+    //    background-color: rgba(24,146,150,0.6) ;
+    //    background-color: rgb(33,74,194);
+       margin-left: 4px;
+       margin-right: 4px;
+       border-radius: 5px;
+       border: 2px solid rgb(63,110,255);
+       background-color: black;
+   }
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor::shadow .cursor {
+  // border-color: red;
+}
+
+atom-text-editor::shadow {
+  .selection .region {
+    // background-color: rgba(107,206,210,0.9) ;
+    // background-color: rgb(24,46,114) ;
+    background-color: rgba(24,146,150,0.6) ;
+  }
+}
+
+body {
+    //border: 1px rgba(219,180,119,0.9) solid;
+    border: 1px rgb(122,77,97) solid;
+}
+
+atom-panel.bottom.tool-panel.panel-bottom {
+    border-top: 1px solid rgb(122,77,97);
+}
+
+div.line-numbers {
+    border-right: 1px solid rgb(122,77,97);
+    border-bottom: 1px solid rgb(122,77,97);
+}
+
+ul.list-inline.tab-bar.inset-panel {
+    border-bottom: 1px solid rgb(122,77,97);
+}
+
+li.tab.sortable.active::after {
+    // background-color: rgba(119,100,19,0.9);
+    // border: 1px white solid;
+    border-radius: 5px;
+    border: 1px solid rgb(63,110,255);
+}

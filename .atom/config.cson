@@ -1,0 +1,31 @@
+"*":
+  "Sublime-Style-Column-Selection":
+    selectKeyTrigger: "Shift"
+  "browser-plus": {}
+  core:
+    disabledPackages: [
+      "vim-mode"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/dplee/work/study_room"
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "1dfe7ec8-3230-d381-353c-81f8b7355a87"
+  minimap:
+    absoluteMode: true
+    scrollAnimation: true
+  "sync-settings":
+    _analyticsUserId: "43ea47eb-984f-4dd5-966f-7bda617f121b"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
